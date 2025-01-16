@@ -11,6 +11,9 @@ const currentOS = {
     release: os.release(),
     totalMem: os.totalmem(),
     freeMem: os.freemem(),
+    osType: os.type(),
+    osInfo: os.machine(),
+    network: os.networkInterfaces(),
 }
 
 console.log(currentOS);
